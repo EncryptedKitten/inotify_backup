@@ -58,7 +58,7 @@ def main():
 		
 		inotify_backup(watch_dir, backup_dir, time_function, wait)
 	else:
-		print(sys.argv[0] + " watch_dir (Must have trailing slash \"/\".) backup_dir (Must have trailing slash \"/\".) wait (The duration between keeping an old backup of the same file in minutes.)")
+		print("inotify_backup watch_dir (Must have trailing slash \"/\".) backup_dir (Must have trailing slash \"/\".) wait (The duration between keeping an old backup of the same file in minutes.)")
 	
 if __name__ == "__main__":
 	main()

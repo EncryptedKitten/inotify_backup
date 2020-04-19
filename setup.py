@@ -4,7 +4,7 @@ with open('README.md', 'r') as fh:
 	long_description = fh.read()
 
 setuptools.setup(
-	name="inotiy_backup",
+	name="inotify_backup",
 	version="0.0.1",
 	author="EncryptedKitten",
 	description="A Python script to back up file modifications reported by inotify.",
